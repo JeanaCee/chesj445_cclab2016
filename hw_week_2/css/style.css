@@ -1,0 +1,33 @@
+p{
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    background-image: center;
+  /*  background: blue;*/
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: #49c1b2;
+}*/
+
+/*#animate2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    background: red;
+}*/

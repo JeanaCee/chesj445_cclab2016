@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lettering.js"></script>
+<script type="text/javascript" src="js/jquery.textillate.js"></script>
+
+</head>
+
+<body>
+
+<h1 class ="tlt"> Homework Assignment 2 </h1>
+<!-- <p> Homework Assignment 2 </p> -->
+
+</h1>
+
+<!-- week 1 hw code -->
+	<!-- <p>
+	<button onclick="myMove()">CLICK</button>
+	</p> -->
+<!--   week 1 hw code -->
+
+
+<div id ="container3" align="middle">
+<!-- 
+	<img src="images/pattern2.png"> -->
+  <!-- <img src="images/three.png">
+  <img src="images/two.png"> -->
+  <img src="images/one.png">
+
+   
+    <div id ="animate"> </div>
+
+</div>
+
+<div id= "container2" align="middle">
+  <img src="images/two.png">
+</div>
+
+<div id= "container1" align ="middle">
+  <img src="images/three.png" >
+</div>
+
+<!-- //week 1 hw that i built upon// -->
+<!-- <script>
+function myMove() {
+  var elem = document.getElementById("animate");
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) { // where it stops
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+
+<div class="slider responsive">
+
+  <div class="left image">
+
+    <img src="before.jpg"/>
+
+  </div>
+
+  <div class="right image">
+
+    <img src="after.jpg"/>
+
+  </div>
+
+</div>
+
+
+</script> -->
+
+<script>
+
+  $("#container3").show(3000).hide(3000).show(3000).hide(3000).show(3000);
+  $("#container2").show(3000).hide(3000).show(3000).hide(3000).show(3000);
+  $("#container1").show(3000).hide(3000).show(3000).hide(3000).show(3000);
+
+
+
+  $('.tlt').textillate ({
+    in: { effect: 'bounce', delay:10},
+    out: {effect: 'bounceOut'},
+    loop:true
+
+});
+  
+</script>
+
+</body>
+<html>
+
