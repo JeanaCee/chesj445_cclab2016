@@ -1,0 +1,2 @@
+# Week 9 Homework
+I built upon my midterm from Creative Coding. I used the 3D example from the openFrameworks example folders to create this midterm while also adding shapes and speed to my objects. I use to be able to use a Gui to control the speed, but I ran into some difficulties creating the proper addon path. If you press the spacebar and move your mouse around the screen, it allows you to see some of the image in 3D. 
